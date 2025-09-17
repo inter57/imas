@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Settings
 SAVE_DIR = "uploads"
-DOMAIN = "https://pythoncode.unknownx1337.dev/removebg"  # আপনার আসল domain/subdomain বসান
+DOMAIN = "https://imas-extracer.vercel.app/removebg"  # আপনার আসল domain/subdomain বসান
 
 if not os.path.exists(SAVE_DIR):
     os.makedirs(SAVE_DIR)
